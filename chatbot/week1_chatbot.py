@@ -6,7 +6,7 @@ def simple_chatbot(user_input):
     if "hello" in user_input or "hi" in user_input:
         return "Hi there! How can I help you?"
     elif "name" in user_input:
-        return "I’m your Week 1 Chatbot prototype 🤖"
+        return "I’m your Week 1 Chatbot prototype "
     elif "bye" in user_input:
         return "Goodbye! Have a great day!"
     else:
