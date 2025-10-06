@@ -12,7 +12,7 @@ In Week 1, I created a basic chatbot:
 - Can say goodbye politely.  
 - Code is located in `chatbot/week1_chatbot.py`.  
 
-Think of it as a chatbot that **follows a script** — it only knows what you explicitly tell it.  
+Think of it as a chatbot that **fol assssssssslows a script** — it only knows what you explicitly tell it.  
 
 
 ## Week 2: ML-Based Chatbot (Intent Recognition) 
@@ -22,16 +22,8 @@ In Week 2, I upgraded the bot to **understand user intent** using machine learni
 - Uses `intents.json` to store **patterns** (user messages) and **responses** (bot replies).  
 - Makes the bot **more flexible** and able to handle different ways people ask the same thing.  
 - Code is in `chatbot/week2_chatbot.py`.  
-- `intents.json` is in the project root folder.  
+- `intents.json` is in the project root folder. 
 
-Example from `intents.json`:
-
-```json
-{
-  "tag": "greeting",
-  "patterns": ["Hi", "Hello", "Hey"],
-  "responses": ["Hello!", "Hi there!", "Hey! How can I help?"]
-}
 
 ## How to Run the Chatbot:
 1.Open a terminal and navigate to the project root:
@@ -42,3 +34,12 @@ Example from `intents.json`:
    Hi 
    Thanks
    Bye
+
+Example from `intents.json`:
+
+```json
+{
+  "tag": "greeting",
+  "patterns": ["Hi", "Hello", "Hey"],
+  "responses": ["Hello!", "Hi there!", "Hey! How can I help?"]
+}
