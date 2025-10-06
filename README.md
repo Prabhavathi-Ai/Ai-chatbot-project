@@ -34,7 +34,7 @@ Example from `intents.json`:
 }
 
 ## Folder structure 
-   my_chatbot_project/
+  my_chatbot_project/
 ├── README.md
 ├── intents.json
 ├── nlp_scripts/
@@ -52,18 +52,18 @@ How to Run the Chatbot
 
 1. Open a terminal and go to the project root:
 
-          cd "C:\Users\Admin\Desktop\my_chatbot_project"
+        cd "C:\Users\Admin\Desktop\my_chatbot_project"
 
 2. Run the Week 2 chatbot:
 
-          python chatbot\week2_chatbot.py
+        python chatbot\week2_chatbot.py
 
 3. Chat with the bot! Try typing:
-          Hi
-          Thanks
-          Bye
+        Hi
+        Thanks
+        Bye
     and see how it responds
-
+    
 ## Author
 
 Prabhavathi-Ai
